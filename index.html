@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NETMEM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="media/background-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="intro-video-container">
+    <video id="intro-video" autoplay muted playsinline>
+      <source src="media/Netflix New Logo Animation 2019.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div id="profile-select" class="profile-select hidden">
+    <h2>Who's watching?</h2>
+    <div class="profiles">
+      <a href="bebi.html" class="fade-link"><div class="profile">Bebi</div></a>
+      <a href="aye.html" class="fade-link"><div class="profile">Aye</div></a>
+      <a href="akachan.html" class="fade-link"><div class="profile">Akachan</div></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
